@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo chmod a+x ~/update-ubuntu/up.sh
-mkdir ~/bin
+mkdir -p ~/bin
 cp ~/update-ubuntu/up.sh ~/bin/up
-sudo export PATH=~/bin:$PATH
-sudo source ~/.bashrc
+export PATH=~/bin:$PATH
+source ~/.bashrc
