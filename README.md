@@ -4,9 +4,17 @@ How to install
 git clone https://github.com/andvenaa/update-ubuntu.git
 ```
 
-## Run install
+## Run this first.
 ```sh
-bash ~/update-ubuntu/install.sh
+sudo chmod a+x ~/update-ubuntu/up.sh
+```
+
+## Then run these commands
+```sh
+mkdir -p ~/bin
+export PATH=~/bin:$PATH
+cp ~/update-ubuntu/up.sh ~/bin/up
+source ~/.bashrc
 ```
 
 Then you can just login to your system, run **```up```** and enter your sudo password. And it will update. Will also tell you if the system need to restart.
