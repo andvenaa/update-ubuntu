@@ -19,6 +19,7 @@ Then you can just login to your system, run **```up```** and enter your sudo pas
 
 ## Update script from git
 ```sh
+cd ~/update-ubuntu/
 git fetch
 ```
 
