@@ -6,7 +6,7 @@ git clone https://github.com/andvenaa/update-ubuntu.git
 
 ## Run install
 ```sh
-bash bash ~/update-ubuntu/install.sh
+bash ~/update-ubuntu/install.sh
 ```
 
 Then you can just login to your system, run **```up```** and enter your sudo password. And it will update. Will also tell you if the system need to restart.
