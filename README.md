@@ -17,6 +17,11 @@ source ~/.bashrc
 
 Then you can just login to your system, run **```up```** and enter your sudo password. And it will update. Will also tell you if the system need to restart.
 
+## Update script from git
+```sh
+git fetch
+```
+
 ##### The system will run the following updates.
 ```sh
     sudo apt-get update;
