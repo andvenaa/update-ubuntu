@@ -6,14 +6,12 @@ git clone https://github.com/andvenaa/update-ubuntu.git
 
 ## Run this first.
 ```sh
-sudo chmod a+x ~/update-ubuntu/up.sh
+sudo chmod a+x ~/update-ubuntu/up
 ```
 
 ## Then run these commands
 ```sh
-mkdir -p ~/bin
-export PATH=~/bin:$PATH
-cp ~/update-ubuntu/up.sh ~/bin/up
+export PATH=~/update-ubuntu:$PATH
 source ~/.bashrc
 ```
 
