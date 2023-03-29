@@ -11,8 +11,7 @@ sudo chmod a+x ~/update-ubuntu/up
 
 ## Then run these commands
 ```sh
-export PATH=~/update-ubuntu:$PATH
-source ~/.bashrc
+sudo mv ~/update-ubuntu/up /usr/bin
 ```
 
 Then you can just login to your system, run **```up```** and enter your sudo password. And it will update. Will also tell you if the system need to restart.
